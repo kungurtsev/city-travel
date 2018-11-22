@@ -1,0 +1,21 @@
+table.table-remotes > thead > tr > th {
+    background-color: #2980b9;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    border: 0px solid black;
+}
+
+table.table-remotes > tbody > tr:nth-child(2n) > td {
+    background-color: #f6f6f6;
+}
+
+table.table-remotes > tbody > tr:nth-child(2n+1) > td {
+    background-color: #e9e9e9;
+}
+
+table.table-remotes > tbody > tr > td {
+    vertical-align: middle;
+    text-align: center;
+    border: 0px solid black;
+}
